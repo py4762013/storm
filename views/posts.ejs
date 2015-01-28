@@ -1,0 +1,11 @@
+<% include header %>
+<h2>zuoxiaoxi</h2>
+<div class="row">
+<% posts.forEach(function(post){ %>
+    <div class="col-sm-6">
+        <h2><%= post.title %></h2>
+        <a href="<%= post.href %>"><img class="img-responsive" src="<%= post.src %>"></a>
+    </div>
+<% }) %>
+</div>
+<% include footer %>

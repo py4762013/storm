@@ -1,0 +1,6 @@
+<h2>tuchong</h2>
+<%= console.log(posts) %>
+<% posts.forEach(function(post, index){ %>
+    <h3><%= post.title %></h3>
+    <img class="img-responsice" src="<%= post.href %>">
+<% }) %>
