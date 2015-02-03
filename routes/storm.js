@@ -39,7 +39,7 @@ router.get('/one', function(req, res){
 
 router.get('/tuchong', function(req, res){
     superagent
-        .get('http://zuoxiaoxi.tuchong.com/7061965/#image11798029')
+        .get('http://zuoxiaoxi.tuchong.com/6241320/')
         .end(function(err, sres){
             if(err){
                 req.flash('error', err);
@@ -102,7 +102,7 @@ router.get('/name', function(req, res){
                 posts: posts
             });
         });
-        tuchong.fromname('http://zuoxiaoxi.tuchong.com/');
+        //tuchong.fromname('http://zuoxiaoxi.tuchong.com/');
 });
 
 module.exports = router;

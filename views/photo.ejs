@@ -1,0 +1,9 @@
+<% include header %>
+<div class="row">
+    <h2>Title:<%= title %></h2>
+    <h4>Author:<a href="/tuchong/author/<%= author %>"><%= author %></a></h4>
+    <% imgs.forEach(function(img){ %>
+        <img class="img-responsive img-thumbnail" src="<%= img %>" >
+    <% }) %>
+</div>
+<% include footer %>

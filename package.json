@@ -20,6 +20,7 @@
     "express-session": "1.9.1",
     "connect-mongo": "0.4.1",
     "mongodb": "1.4.14",
-    "mongoose": "*"
+    "mongoose": "*",
+    "async": "*"
   }
 }
